@@ -4,7 +4,10 @@
 
 @layer base {
   body {
-    @apply antialiased;
-    font-family: 'Inter', sans-serif;
+    @apply bg-emerald-950 min-h-screen antialiased;
   }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
